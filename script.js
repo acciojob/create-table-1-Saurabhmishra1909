@@ -4,7 +4,7 @@ function insert_Row() {
 	const newRow=table.insertRow(0);
 	const cell1=newRow.insertCell(0);
 	const cell2=newRow.insertCell(1);
-	cell1.innerHTML=`new Cell ${i}`;
-	cell2.innerHTML=`new Cell ${i}`;
+	cell1.innerHTML=`New Cell ${i}`;
+	cell2.innerHTML=`New Cell ${i}`;
 	i++;
 }
