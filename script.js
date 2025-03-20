@@ -1,5 +1,5 @@
 let i = 1;
-
+let j = 2; 
 function insert_Row() {
     const table = document.getElementById("sampleTable");
     const newRow = table.insertRow(0);
@@ -8,7 +8,6 @@ function insert_Row() {
 
     // Remove the space between "Cell" and the number
     cell1.innerHTML = `New Cell${i}`;
-    cell2.innerHTML = `New Cell${i}`;
+    cell2.innerHTML = `New Cell${j}`;
 
-    i++;
 }
